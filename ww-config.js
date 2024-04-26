@@ -16,6 +16,7 @@ export default {
       label: 'Name',
       settings: true,
       bindable: true,
+      defaultValue: "mdi-light:home"
     },
   },
 };
