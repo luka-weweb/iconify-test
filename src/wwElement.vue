@@ -4,7 +4,7 @@ import { Icon } from '@iconify/vue';
 
 <template>
   <div style="position: relative;">
-    <Icon :icon="this.content.name" />
+    <Icon icon="mdi-light:home" />
 </div>
 </template>
 

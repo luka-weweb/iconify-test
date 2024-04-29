@@ -1,9 +1,9 @@
 export default {
   editor: {
     label: {
-      en: "Dropdown",
+      en: "Iconify",
     },
-    icon: "navigator-dropdown",
+    icon: "star",
     navigator: {
       groups: ["Trigger", "Dropdown"],
     },
