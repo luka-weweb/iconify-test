@@ -4,8 +4,7 @@ import { Icon } from '@iconify/vue';
 
 <template>
   <div style="position: relative;">
-    <Icon icon="mdi-light:home" />
-    <Icon :icon="this.content.name" />
+    {{ this.content.name }}
 </div>
 </template>
 
@@ -15,11 +14,6 @@ export default {
     content: { type: Object, required: true },
     wwFrontState: { type: Object, required: true },
     wwEditorState: { type: Object, required: true },
-  },
-  data() {
-    return {
-      name: 'mdi-light:home'
-    }
   }
 }
 </script>
