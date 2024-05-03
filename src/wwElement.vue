@@ -13,10 +13,6 @@ import { Icon } from '@iconify/vue';
 export default {
   props: {
     content: { type: Object, required: true },
-    wwFrontState: { type: Object, required: true },
-    wwEditorState: { type: Object, required: true },
   }
 }
 </script>
-
-<style lang="scss" scoped></style>
