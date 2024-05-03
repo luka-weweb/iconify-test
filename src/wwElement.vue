@@ -5,6 +5,8 @@ import { Icon } from '@iconify/vue';
 <template>
   <div style="position: relative;">
     {{ this.content.name }}
+    <Icon icon="mdi-light:home" />
+    <Icon :icon="this.content.name" />
 </div>
 </template>
 
@@ -17,3 +19,5 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped></style>
